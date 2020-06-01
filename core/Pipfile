@@ -1,6 +1,6 @@
 [[source]]
-url = "http://mirrors.aliyun.com/pypi/simple/"
-verify_ssl = false
+url = "https://pypi.python.org/simple"
+verify_ssl = true
 name = "pypi"
 
 [packages]
@@ -11,7 +11,7 @@ psutil = "==5.7.0"
 numpy = "==1.16.4"
 pandas = "==0.24.2"
 statsmodels = "==0.10.1"
-pyarrow = "==0.14.0"
+pyarrow = ">=0.14.0"
 tabulate = "==0.8.3"
 click = "==7.0"
 PyInquirer = "==1.0.3"
@@ -19,7 +19,7 @@ prompt_toolkit = "==1.0.14"
 tushare = "==1.2.39"
 plotly = "==4.0.0"
 sortedcontainers = "==2.1.0"
-recordclass = "==0.12.0.1"
+recordclass = ">=0.12.0.1"
 dotted_dict = "==1.1.2"
 schema="==0.7.1"
 rx = "==3.0.1"
